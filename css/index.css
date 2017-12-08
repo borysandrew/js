@@ -1,0 +1,70 @@
+body {
+    max-width: 1000px;
+    height: 1100px;
+    background: url(img/mathematic.png) repeat-y;
+    background-size: 100%;
+    margin: 0;
+}
+h1 {
+    text-align: left
+}
+
+
+h2 {
+    margin: 20px 170px;
+    border: solid black;
+    width: 200px;
+    text-align: center;
+}
+
+span {
+    color: #f4182e
+}
+.one{
+    color:white;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+#position{display: flex;
+justify-content:flex-start;
+margin: 5px 10px;
+
+    
+}
+.example{display: flex;
+justify-content:center;
+    border: solid black;
+    width:580px;
+    color:#c9c7c7;
+    padding: 5px;
+    background-color: #1c1a1a;
+    
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    float: left;
+    border-color: black;
+    background-color: #3d3a38;
+    margin:10px;
+}
+
+.button:hover {
+    background-color: #fc6c0c;
+}
+
+.button:active {
+    background-color: #af4701
+}
+
+.but {
+    display: flex;
+    justify-content: flex-end;
+}
+
+h3 {
+    color: red;
+}
